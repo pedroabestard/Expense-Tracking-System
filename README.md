@@ -1,15 +1,20 @@
 # Expense Management System
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+A simple yet powerful expense management system featuring a Streamlit frontend and a FastAPI backend. Track your expenses efficiently with interactive analytics and a user-friendly interface.
 
 ## Project Structure
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+- **frontend/**: Streamlit application code for the user interface.
+- **backend/**: FastAPI backend server code powering the API.
+- **tests/**: Automated test cases for frontend and backend components.
+- **requirements.txt**: Python dependencies for the project.
+- **README.md**: Project overview and setup instructions.
 
+## Features
+- Add, update, and delete expense records
+- Filter and analyze expenses by category and payment method.
+- Monthly trend visualizations and detailed breakdowns.
+- Responsive UI with interactive charts powered by Streamlit.
 
 ## Setup Instructions
 
@@ -29,3 +34,6 @@ This project is an expense management system that consists of a Streamlit fronte
 1. **Run the Streamlit app:**:   
    ```commandline
     streamlit run frontend/app.py
+
+## Contributing
+Contributions are more than welcome! Feel free to open issues or submit pull requests.
